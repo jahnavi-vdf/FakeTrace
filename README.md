@@ -1,41 +1,20 @@
-FAKETRACE – AI-BASED MULTIMODAL DEEPFAKE DETECTION SYSTEM
-“TRUST, BUT VERIFY.”
-PROBLEM STATEMENT
-The rapid growth of deepfake technology has created serious risks such as
-misinformation, identity fraud, and loss of digital trust. Detecting manipulated
-images, videos, and text has become extremely difficult for humans using manual
-methods.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-SOLUTION OVERVIEW:
-FakeTrace is an AI-based web application designed to detect and analyze deepfake
-content. Users can upload media files and instantly verify whether the content is
-REAL or FAKE. The system uses AI-assisted forensic analysis to identify hidden
-patterns, inconsistencies, and digital artifacts.
+# Run and deploy your AI Studio app
 
-KEY FEATURES:
-Image deepfake detection (MVP)
-Simple and clean user interface
-AI-powered forensic reasoning
-REAL / FAKE classification with confidence score
-Explainable AI output for better trust
+This contains everything you need to run your app locally.
 
-TECH STACK:
-FRONTEND: React + TypeScript
-AI ENGINE: Google Gemini AI
-ARCHITECTURE: Modular and extensible design
-DEPLOYMENT: Hackathon-ready MVP setup
+View your app in AI Studio: https://ai.studio/apps/drive/1HhUN9M2pTDT9A6KSYutAmHSJ24n4cJHa
 
-HOW IT WORKS:
-UPLOAD CONTENT – User uploads an image or media file
-ANALYZE DATA – System examines visual artifacts and inconsistencies
-AI DECISION – AI classifies content as REAL or FAKE
-DISPLAY RESULT – Output shown with confidence and explanation
+## Run Locally
 
-FUTURE SCOPE:
-Video deepfake detection using frame-level analysis
-Audio deepfake detection using spectrogram-based AI models
-Dataset expansion and model fine-tuning
-Ethical AI safeguards and audit logging
-FakeTrace is a hackathon prototype developed for educational and research
-purposes only. AI-generated results should not be used as the sole evidence for
-critical decision-making.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

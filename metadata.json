@@ -1,0 +1,8 @@
+{
+  "name": "FakeTrace ",
+  "description": "A cutting-edge AI deepfake detection platform featuring multi-modal analysis (image, video, audio) and futuristic glassmorphic interfaces.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
